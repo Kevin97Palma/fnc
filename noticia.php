@@ -103,8 +103,8 @@
                                 </div>
                                 <div class="p-4">
                                     <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                                        <small class="me-3"><i class="far fa-user text-primary me-2"></i>Kevin Palma</small>
+                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>04 Jan, 2020</small>
                                     </div>
                                     <h4 class="mb-3">How to build a website</h4>
                                     <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
