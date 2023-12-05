@@ -26,6 +26,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -128,8 +129,9 @@
                 <div class="modal-header border-0">
                     <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body d-flex  justify-content-center bg-light">
+                <div class="modal-body d-flex  justify-content-center bg-light" >
             
+
 
                 <div class="container-fluid py-5" >
         <div class="container py-5">
@@ -150,6 +152,14 @@
                             <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>AFiliacion 2021</h5>
                             <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>AFiliacion 2019</h5>
                             <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>AFiliacion 2017</h5>
+                            <input type="text" id="ci" placeholder="Cédula">
+  <input type="text" id="Nombre" placeholder="Nombre">
+  <input type="text" id="Cedula" placeholder="Cédula">
+  <input type="text" id="Apellido" placeholder="Apellido">
+  <input type="text" id="Correo" placeholder="Correo Electrónico">
+  <input type="text" id="Telefono" placeholder="Número de Teléfono">
+  <input type="text" id="Direccion" placeholder="Dirección">
+
                         </div>
                        
                     </div>
@@ -174,6 +184,7 @@
             </div>
         </div>
     </div>
+      
                 </div>
             </div>
         </div>
@@ -419,8 +430,8 @@
             </div>
             <div class="col-lg-6">
             <div class="input-group" style="max-width: 800px;">
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Ingresa tu numero de ruc">
-                        <button class="btn btn-primary px-4" data-bs-toggle="modal" data-bs-target="#searchModal" ><i class="bi bi-search"></i></button>
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Ingresa tu numero de cedula">
+                        <button class="btn btn-primary px-4" id="btnActualizar"  ><i class="bi bi-search"></i></button>
                     </div>
                 </div>
                 <div class="col-lg-3">
@@ -441,8 +452,8 @@
             </div>
             <div class="col-lg-6">
             <div class="input-group" style="max-width: 800px;">
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Ingresa tu numero de ruc">
-                        <button class="btn btn-primary px-4" data-bs-toggle="modal" data-bs-target="#searchModal2" ><i class="bi bi-search"></i></button>
+                        <input type="text" id="ci" name="ci"  class="form-control bg-transparent border-primary p-3" placeholder="Ingresa tu numero de ruc">
+                        <button class="btn btn-primary px-4" id="btnActualizar"  ><i class="bi bi-search"></i></button>
                     </div>
                 </div>
                 <div class="col-lg-3">
@@ -513,6 +524,11 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/app/afiliados.js"></script>
+
 </body>
 
 </html>
